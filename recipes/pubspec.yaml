@@ -31,9 +31,15 @@ dependencies:
   flutter:
     sdk: flutter
 
-  # The following adds the Cupertino Icons font to your application.
-  # Use with the CupertinoIcons class for iOS style icons.
-  cupertino_icons: ^1.0.8
+  provider: ^6.1.1
+  # HTTP клиент для работы с API
+  http: ^1.2.0
+  # Локальная база данных SQLite
+  sqflite: ^2.3.2
+  # Утилиты для работы с путями файлов (нужно для sqflite)
+  path: ^1.8.3
+  # Для красивого отображения изображений из сети
+  cached_network_image: ^3.3.1
 
 dev_dependencies:
   flutter_test:
