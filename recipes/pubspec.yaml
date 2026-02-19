@@ -40,6 +40,7 @@ dependencies:
   path: ^1.8.3
   # Для красивого отображения изображений из сети
   cached_network_image: ^3.3.1
+  flutter_launcher_icons: ^0.13.1
 
 dev_dependencies:
   flutter_test:
@@ -93,3 +94,10 @@ flutter:
   #
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/to/font-from-package
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/icon.png"
+  # Можно указать разные иконки для адаптивных иконок Android 8.0+
+  # adaptive_icon_foreground: "assets/icon_foreground.png"
+  # adaptive_icon_background: "#ffffff"
